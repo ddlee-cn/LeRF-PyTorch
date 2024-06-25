@@ -1,7 +1,5 @@
 ## [CVPR 2023] Learning Steerable Function for Efficient Image Resampling
 
-[Project Page](https://lerf.pages.dev)
-
 This is the authors' reimplementation code in PyTorch.
 
 
@@ -78,8 +76,6 @@ datasets/WarpBenchmark/
                              /osc/*.pth
                    /...
 ```
-
-## Usage
 
 ### Code overview
 
@@ -167,7 +163,7 @@ If you have any questions, feel free to contact me by e-mail `jclee [at] mail.us
 
 
 ## Citation
-If you find our work helpful, please cite the following paper.
+If you find our work helpful, please cite the following papers.
 
 ```
 @InProceedings{Li_2023_LeRF,
