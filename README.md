@@ -7,9 +7,9 @@ This is the authors' reimplementation code in PyTorch.
 
 ## News
 
-2024.07 Extended version of LeRF is available on [arxiv](https://arxiv.org/abs/?).
+2024.07 Extended version of LeRF is available on [arxiv](https://arxiv.org/abs/2407.09935).
 
-2024.07 A reimplementation of LeRF training code is open sourced in PyTorch.
+2024.07 A reimplementation of LeRF training code is open sourced here in PyTorch.
 
 2024.06 Our new work, [Diagonal-First Compression for LUT(DFC)](https://openaccess.thecvf.com/content/CVPR2024/html/Li_Look-Up_Table_Compression_for_Efficient_Image_Restoration_CVPR_2024_paper.html) has been presented as a highlight paper at CVPR 2024.
 
@@ -166,11 +166,11 @@ If you have any questions, feel free to contact me by e-mail `jclee [at] mail.us
 If you find our work helpful, please cite the following papers.
 
 ```
-@InProceedings{Li_2023_LeRF,
+@InProceedings{Li_2024_LeRF,
     author    = {Li, Jiacheng and Chen, Chang and Song, Fenglong and Yan, Youliang and Xiong, Zhiwei},
-    title     = {Adaptive and Efficient Image Interpolation via Learning Resampling Function},
+    title     = {{LeRF}: Learning Resampling Function for Adaptive and Efficient Image Interpolation},
     booktitle = {arXiv},
-    year      = {2023},
+    year      = {2024},
   }
 @InProceedings{Li_2023_LeRF,
     author    = {Li, Jiacheng and Chen, Chang and Huang, Wei and Lang, Zhiqiang and Song, Fenglong and Yan, Youliang and Xiong, Zhiwei},
