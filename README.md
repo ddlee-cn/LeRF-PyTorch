@@ -1,5 +1,7 @@
 ## [CVPR 2023] Learning Steerable Function for Efficient Image Resampling
 
+## LeRF: Learning Resampling Function for Adaptive and Efficient Image Interpolation
+
 This is the authors' reimplementation code in PyTorch.
 
 
