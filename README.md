@@ -1,13 +1,20 @@
 ## [CVPR 2023] Learning Steerable Function for Efficient Image Resampling
 
-## LeRF: Learning Resampling Function for Adaptive and Efficient Image Interpolation
+## [T-PAMI 2025] LeRF: Learning Resampling Function for Adaptive and Efficient Image Interpolation
 
 This is the authors' reimplementation code in PyTorch.
 
 
-[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Learning_Steerable_Function_for_Efficient_Image_Resampling_CVPR_2023_paper.pdf) | [Supp.](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Li_Learning_Steerable_Function_CVPR_2023_supplemental.pdf) | [Poster](https://lerf.pages.dev/static/LeRF-Poster_CVPR23.pdf) | [Project Page](https://lerf.pages.dev/) | [Intro Video](https://www.youtube.com/watch?v=6Sgnq2AD5yw)
+[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Learning_Steerable_Function_for_Efficient_Image_Resampling_CVPR_2023_paper.pdf) | [Supp.](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Li_Learning_Steerable_Function_CVPR_2023_supplemental.pdf) | [T-PAMI Paper](https://ieeexplore.ieee.org/document/11027639) | [Poster](https://lerf.pages.dev/static/LeRF-Poster_CVPR23.pdf) | [Project Page](https://lerf.pages.dev/) | [Intro Video](https://www.youtube.com/watch?v=6Sgnq2AD5yw)
 
 ## News
+
+2025.06 The extended version of LeRF is accepted by [IEEE T-PAMI](https://ieeexplore.ieee.org/document/11027639).
+
+2025.05 My Ph.D. advisor, Prof. Zhiwei Xiong, gave a [talk (in Chinese)](https://ccig.csig.org.cn/2025/6874/list.html#:~:text=%E6%8A%A5%E5%91%8A%E9%A2%98%E7%9B%AE%EF%BC%9A%20%E5%9F%BA%E4%BA%8E%E5%8F%AF%E5%AD%A6%E4%B9%A0%E6%9F%A5%E6%89%BE%E8%A1%A8%E7%9A%84%E9%AB%98%E6%95%88%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86) on learned LUTs at Chinese Congress on Image and Graphics (CCIG) 2025.
+
+2024.12 Our new work, [In-Loop Filtering via Trained Look-Up Tables(ILF-LUT)](https://ieeexplore.ieee.org/abstract/document/10849824) has been accepted by VCIP 2024. ILF-LUT extends learned LUTs to video coding, offering a way to integrate learned components into the video codec pipeline.
+
 
 2024.07 Extended version of LeRF is available on [arxiv](https://arxiv.org/abs/2407.09935).
 
@@ -168,34 +175,40 @@ If you have any questions, feel free to contact me by e-mail `jclee [at] mail.us
 If you find our work helpful, please cite the following papers.
 
 ```
-@InProceedings{Li_2024_LeRF,
-    author    = {Li, Jiacheng and Chen, Chang and Song, Fenglong and Yan, Youliang and Xiong, Zhiwei},
-    title     = {{LeRF}: Learning Resampling Function for Adaptive and Efficient Image Interpolation},
-    booktitle = {arXiv},
-    year      = {2024},
-  }
-@InProceedings{Li_2023_LeRF,
-    author    = {Li, Jiacheng and Chen, Chang and Huang, Wei and Lang, Zhiqiang and Song, Fenglong and Yan, Youliang and Xiong, Zhiwei},
-    title     = {Learning Steerable Function for Efficient Image Resampling},
-    booktitle = {CVPR},
-    year      = {2023},
-  }
-@ARTICLE{10530442,
-      author    = {Li, Jiacheng and Chen, Chang and Cheng, Zhen and Xiong, Zhiwei},
-      title     = {Toward {DNN} of {LUTs}: Learning Efficient Image Restoration with Multiple Look-Up Tables},
-      journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-      year      = {2024},
-      volume    = {},
-      number    = {},
-      pages     = {1-18},
-      doi       = {10.1109/TPAMI.2024.3401048}
-  }
 @InProceedings{Li_2022_MuLUT,
     author    = {Li, Jiacheng and Chen, Chang and Cheng, Zhen and Xiong, Zhiwei},
     title     = {{MuLUT}: Cooperating Multiple Look-Up Tables for Efficient Image Super-Resolution},
     booktitle = {ECCV},
     year      = {2022},
   }
+
+@ARTICLE{10530442,
+  author={Li, Jiacheng and Chen, Chang and Cheng, Zhen and Xiong, Zhiwei},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Toward DNN of LUTs: Learning Efficient Image Restoration With Multiple Look-Up Tables}, 
+  year={2024},
+  volume={46},
+  number={12},
+  pages={8284-8301},
+  doi={10.1109/TPAMI.2024.3401048}}
+
+
+@InProceedings{Li_2023_LeRF,
+      author    = {Li, Jiacheng and Chen, Chang and Huang, Wei and Lang, Zhiqiang and Song, Fenglong and Yan, Youliang and Xiong, Zhiwei},
+      title     = {Learning Steerable Function for Efficient Image Resampling},
+      booktitle = {CVPR},
+      year      = {2023},
+  }
+
+@ARTICLE{11027639,
+  author={Li, Jiacheng and Chen, Chang and Song, Fenglong and Yan, Youliang and Xiong, Zhiwei},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={LeRF: Learning Resampling Function for Adaptive and Efficient Image Interpolation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-18},
+  doi={10.1109/TPAMI.2025.3577227}}
 ```
 
 
